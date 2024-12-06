@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "closeOut",
+    "version": "1.0",
+    "description": "Close all inactive Zendesk tabs using Ctrl+Shift+Z.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://*.zendesk.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "close-inactive-tabs": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Z"
+        },
+        "description": "Close inactive Zendesk tabs"
+      }
+    }
+  }
+  
