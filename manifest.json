@@ -10,7 +10,7 @@
     },
     "action": {
       "default_icon": "icon.png",
-      "default_title": "Close Inactive Zendesk Tabs"
+      "default_title": "Close Inactive Zendesk Tabs using Ctrl+Shift+Z"
     },
     "commands": {
       "close-inactive-tabs": {
